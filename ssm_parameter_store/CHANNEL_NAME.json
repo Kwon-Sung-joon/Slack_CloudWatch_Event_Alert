@@ -1,9 +1,5 @@
 {
-"#test":"https://hooks.slack.com/services/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",
-"#aws-vpn-alert":"https://hooks.slack.com/services/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",
-"#hotel-alert":"https://hooks.slack.com/services/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",
-"#공통-alert":"https://hooks.slack.com/services/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",
-"#etp_alert":"https://hooks.slack.com/services/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",
-"#aws-hotel-front-alert":"https://hooks.slack.com/services/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",
-"#hn-data-fly-alert":"https://hooks.slack.com/services/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"
+"SLACK_CHANNEL_NAME":"HOOKS_URL",
+"SLACK_CHANNEL_NAME-B":"HOOKS_URL-B"
+
 }
