@@ -216,7 +216,7 @@ def lambda_handler(event, context):
               hook_url=elb_client.get_hook_url_by_elb_tags(tg_arn)
   elif msg['Trigger']['Namespace'] == "AWS/DX":
       #DX
-      hook_url=get_ssm_parameters_url("#etp_alert")
+      hook_url=get_ssm_parameters_url("#dx_alert")
 
 
   request = Request(
