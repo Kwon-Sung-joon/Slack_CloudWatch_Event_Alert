@@ -1,9 +1,4 @@
 {
-        "751732153713" : "arn:aws:iam::751732153713:role/IAM_ROLE_READ_RESOURCE",
-        "298385711329" : "arn:aws:iam::298385711329:role/IAM_ROLE_READ_RESOURCE",
-        "300846112004" : "arn:aws:iam::300846112004:role/IAM_ROLE_READ_RESOURCE",
-        "589566835476" : "arn:aws:iam::589566835476:role/IAM_ROLE_READ_RESOURCE",
-        "012788139911" : "arn:aws:iam::012788139911:role/IAM_ROLE_READ_RESOURCE",
-        "744690697308" : "arn:aws:iam::744690697308:role/IAM_ROLE_READ_RESOURCE",
-        "792931648816" : "arn:aws:iam::792931648816:role/IAM_ROLE_READ_RESOURCE"
+        "<ACCOUNT-A>" : "arn:aws:iam::<ACCOUNT-A>:role/IAM_ROLE_READ_RESOURCE",
+        "<ACCOUNT-B>" : "arn:aws:iam::<ACCOUNT-B>:role/IAM_ROLE_READ_RESOURCE"
 }
