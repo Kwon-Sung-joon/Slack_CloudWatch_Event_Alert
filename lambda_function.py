@@ -252,7 +252,6 @@ def lambda_handler(event, context):
         lb_arn="arn:aws:elasticloadbalancing:ap-northeast-2:"+msg["AWSAccountId"]+":loadbalancer/"+msg['Trigger']['Dimensions'][0]['value']
         get_lb_acm_domains=elb_client.get_lb_acm(lb_arn)      
         hook_url=elb_client.get_hook_url_by_elb_tags(lb_arn)
-        #hook_url="https://hooks.slack.com/services/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"
         slack_data['attachments'][0]['fields'].append({
             'title': 'LB',
             'value': msg['Trigger']['Dimensions'][0]['value'],
